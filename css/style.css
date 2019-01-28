@@ -8,10 +8,7 @@ body {
     background-image: url(../images/Background/concrete-texture.png);
     background-size: initial;
     background-repeat: repeat;
-    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
     color: #777777;
-    /*background-position: center;   
-    background-color:#666666; */
 }
 
 #about_image {
@@ -34,7 +31,6 @@ h1, h2, h3, ul {
 }
 
 .main_header {
-    position: relative;
     max-width: 960px;
     margin: 0 auto;
 }
@@ -43,11 +39,9 @@ h1, h2, h3, ul {
     padding: 20px;
     background-color: #4aaaa5;
     color: #ffffff;
-    float: left;
-    margin: 0px auto;
+    margin: 0px;
     font-weight: bold;
     font-size: 34px;
-    /* font-family: 'Georgia', Times, Times New Roman, serif; */
 }
 
 .main_content {
@@ -58,7 +52,6 @@ h1, h2, h3, ul {
     background-color: #ffffff;
     margin-bottom: 100px;
     margin-top: 20px;
-    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
 }
 
 li, a {
@@ -69,8 +62,14 @@ header {
     border-bottom: #cccccc solid 2px;
     margin: 0;
     background-color: #ffffff;
-    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
-    /* font-family: 'Georgia', Times, Times New Roman, serif; */
+}
+
+.navbar_cont{
+    position: absolute;
+    right: 0;
+    top: 20;
+    background-color: #ffffff;
+    padding: 0 20 0 5;
 }
 
 .header_content {
@@ -78,8 +77,6 @@ header {
     border-bottom: #cccccc solid 2px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
-    /* font-family: 'Georgia', Times, Times New Roman, serif; */
 }
 
 .footer_style {
@@ -94,4 +91,52 @@ header {
     border-top: 8px solid #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 12px;
+}
+
+/* Contact page */
+.text_box{    
+    width: 100%;
+    margin: 0px 0  20px 0;
+}
+
+.bt_submit{
+    padding: 10px 20px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    margin-top:200px;
+    text-decoration: none;
+}
+
+.bt_submit:hover{
+    background-color:#219690;
+    color:#ffffff;
+    text-decoration:none;
+    /* background-color:#3E0CE8; */
+}
+
+/* Portfolio Page */
+.portfolio_image
+{
+    width:240px;
+    height:300px;
+    margin:20px 0;    
+}
+
+.link_image{
+    text-decoration: none;
+    text-align: center;
+    color:#ffffff;
+    padding: 10px;
+    background-color: #4aaaa5;
+    width:240px;
+    position:absolute;
+    bottom:30px;
+    left:15;
+    /* overflow: auto; */
+}
+
+.link_image:hover{
+    background-color:#219690;
+    color:#ffffff;
+    text-decoration:none;
 }
