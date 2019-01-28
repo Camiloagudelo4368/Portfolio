@@ -65,18 +65,20 @@ header {
 }
 
 .navbar_cont{
+    z-index: 1;
     position: absolute;
     right: 0;
     top: 20;
     background-color: #ffffff;
     padding: 0 20 0 5;
+    overflow: auto;
 }
 
 .header_content {
     color: #4aaaa5;
     border-bottom: #cccccc solid 2px;
     padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 .footer_style {
@@ -111,7 +113,6 @@ header {
     background-color:#219690;
     color:#ffffff;
     text-decoration:none;
-    /* background-color:#3E0CE8; */
 }
 
 /* Portfolio Page */
@@ -132,7 +133,6 @@ header {
     position:absolute;
     bottom:30px;
     left:15;
-    /* overflow: auto; */
 }
 
 .link_image:hover{
