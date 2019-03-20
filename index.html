@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <title>About Me</title>
     <link rel="stylesheet" href="css/reset.css">
@@ -16,16 +17,16 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#start">Home</a>
+                        <a id="startLink" class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Sumary</a>
+                        <a id="sumaryLink" class="nav-link" href="#">Sumary</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a id="skillsLink" class="nav-link" href="#">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a id="portfolioLink" class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-target="#contactModal" data-toggle="modal">Contact</a>
@@ -38,10 +39,12 @@
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-12 text-center">
                         <h2 class="header_content">Software Developer</h2>
-                        <img id="start_image" src="images/Index/CamiloAgudeloAbout.jpg" alt="">
+                        <img id="start_image" src="assets/images/Index/CamiloAgudeloAbout.jpg" alt="">
                         <br>
-
                         <br>
+                        <a href="mailto:camilo.agudelo4368@gmail.com">camilo.agudelo4368@gmail.com</a>
+                        <br>
+                        <a href="tel:13478254435">347-825-4435</a>
                         <br>
                     </div>
                 </div>
@@ -49,13 +52,12 @@
         </div>
 
         <div id="about">
-            <div class="container">
-                <div class="row h-100 align-items-center">
-                    <div class="col-2">
-                    </div>
-                    <div class="col-lg-10 text-left my-auto">
-                        <img id="about_image" src="images/Index/CamiloAgudeloAbout.jpg" alt="">
-                        <div class="align-items-center">
+            <div class="container ">
+                <div class="row h-100 align-items-center text-center">
+                    <div class="col-1"></div>
+                    <div class="col-lg-10 text-center my-auto ">
+                        <img id="about_image" class="" src="assets/images/Index/CamiloAgudeloAbout.jpg" alt="">
+                        <div class="align-items-center text-left ">
                             <h4 class="text-dark">I'm Camilo Agudelo <small class="text-danger"> Software
                                     Developer</small></h4>
                             <p id="sumary">Full Stack Web developer able to work with Microsoft ASP.NET and
@@ -75,6 +77,7 @@
                                 in
                                 problem analysis and solving.</p>
                         </div>
+                        <div class="col-lg-4"></div>
                         <div class="row">
                             <div class="col-12 text-right">
                                 <a name="" id="" class="btn btn-outline-danger rowBtn"
@@ -82,8 +85,9 @@
                                     role="button">Resume</a>
                                 <a name="" id="" class="btn btn-warning rowBtn" href="#" role="button"
                                     data-target="#contactModal" data-toggle="modal">Contact me</a>
-                                <a href="https://www.linkedin.com/in/hernan-camilo-agudelo-102416b3/" class="btn btn-outline-light rowBtn">
-                                    <img id="linkImg" src="images/Icons/SVG-color/Linkedin.svg" alt="" srcset=""></a>
+                                <a href="https://www.linkedin.com/in/hernan-camilo-agudelo-102416b3/"
+                                    class="btn btn-outline-light rowBtn">
+                                    <img id="linkImg" src="assets/images/Icons/SVG-color/Linkedin.svg" alt="" srcset=""></a>
                             </div>
 
                         </div>
@@ -93,11 +97,11 @@
         </div>
 
         <div id="skills">
-            <div class="Container text-center my-auto skillsContainer">
+            <div class="container text-center my-auto skillsContainer">
                 <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-0 col-xs-2"></div>
                     <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center">
-                        <img class="imgSkills" src="images/Icons/Skills.png" alt="">
+                        <img class="imgSkills" src="assets/images/Icons/Skills.png" alt="">
                         <br>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 my-auto">
@@ -106,26 +110,26 @@
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-8">
-                        <h5 class="titleLanguages text-center">The Skills</h5>
+                        <h5 class="titleLanguages text-center">THE SKILLS</h5>
                         <br>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-9 text-left">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/img_js.png" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/html5-color.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Css3.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/bootstrap-color.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/ajax-color.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Jquery.svg" alt="JQuery">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Csharp.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Sql.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Node Js.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Mysql.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Microsoft Dotnet.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Github.svg" alt="">
-                        <img class="imgLanguage" src="images/Icons/SVG-color/Visual studio.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/img_js.png" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/html5-color.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Css3.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/bootstrap-color.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/ajax-color.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Jquery.svg" alt="JQuery">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Csharp.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Sql.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Node Js.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Mysql.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Microsoft Dotnet.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Github.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Visual studio.svg" alt="">
                     </div>
                     <div class="col-1"></div>
                 </div>
@@ -134,9 +138,11 @@
 
         <div id="portfolio">
             <div class="container text-center">
+                <h5 class="titleLanguages text-center">THE PROJECTS</h5>
+                <br>
                 <div class="card-deck">
                     <div class="card border-warning cardCustom">
-                        <img class="card-img-top portfolio_image" src="images/Portfolio/Word-Guess-Game.png"
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/Word-Guess-Game.png"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">The Word Guess Game</h5>
@@ -151,13 +157,13 @@
                             </div>
                             <div class="text-right w-50 float-right">
                                 <a href="https://github.com/Camiloagudelo4368/Word-Guess-Game.git"
-                                    class="btn btn-outline-light"> <img src="images/Icons/SVG-color/GithubButton.svg"
+                                    class="btn btn-outline-light"> <img src="assets/images/Icons/SVG-color/GithubButton.svg"
                                         alt="" srcset=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="card border-warning cardCustom">
-                        <img class="card-img-top portfolio_image" src="images/Portfolio/unit-4-game.png"
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/unit-4-game.png"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">The King of Fighters Battle</h5>
@@ -170,13 +176,13 @@
                             </div>
                             <div class="text-right w-50 float-right">
                                 <a href="https://github.com/Camiloagudelo4368/unit-4-game.git"
-                                    class="btn btn-outline-light"> <img src="images/Icons/SVG-color/GithubButton.svg"
+                                    class="btn btn-outline-light"> <img src="assets/images/Icons/SVG-color/GithubButton.svg"
                                         alt="" srcset=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="card border-warning cardCustom">
-                        <img class="card-img-top portfolio_image" src="images/Portfolio/TriviaGame.png"
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/TriviaGame.png"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Trivia Game</h5>
@@ -189,7 +195,7 @@
                             </div>
                             <div class="text-right w-50 float-right">
                                 <a href="https://github.com/Camiloagudelo4368/TriviaGame.git"
-                                    class="btn btn-outline-light"> <img src="images/Icons/SVG-color/GithubButton.svg"
+                                    class="btn btn-outline-light"> <img src="assets/images/Icons/SVG-color/GithubButton.svg"
                                         alt="" srcset=""></a>
                             </div>
                         </div>
@@ -197,7 +203,7 @@
                 </div>
                 <div class="card-deck">
                     <div class="card border-warning cardCustom">
-                        <img class="card-img-top portfolio_image" src="images/Portfolio/GifTastic.png"
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/GifTastic.png"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">GifTastic</h5>
@@ -210,13 +216,13 @@
                             </div>
                             <div class="text-right w-50 float-right">
                                 <a href="https://github.com/Camiloagudelo4368/GifTastic.git"
-                                    class="btn btn-outline-light"> <img src="images/Icons/SVG-color/GithubButton.svg"
+                                    class="btn btn-outline-light"> <img src="assets/images/Icons/SVG-color/GithubButton.svg"
                                         alt="" srcset=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="card border-warning cardCustom">
-                        <img class="card-img-top portfolio_image" src="images/Portfolio/Bescipe.png"
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/Bescipe.png"
                             alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Bescipe</h5>
@@ -229,7 +235,7 @@
                             </div>
                             <div class="text-right w-50 float-right">
                                 <a href="https://github.com/Camiloagudelo4368/Becipe.git" class="btn btn-outline-light">
-                                    <img src="images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
+                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
                             </div>
                         </div>
                     </div>
@@ -240,7 +246,7 @@
 
         <div id="contactModal" class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
             <div class="modal-dialog" role="document">
-                <div class="modal-content">
+                <div class="modal-content bg-light">
                     <div class="modal-header">
                         <h5 class="modal-title" id="gridModalLabel">Contact</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
@@ -259,7 +265,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <label for="">Email</label>
-                                            <input id="txt_email" type="text" class="text_box">
+                                            <input id="txt_email" type="email" required class="text_box">
                                         </div>
                                     </div>
                                     <div class="row">
@@ -275,7 +281,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-primary">Send</button>
                     </div>
                 </div>
             </div>
@@ -289,16 +295,15 @@
         </div>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
             integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
             integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
             integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
             crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/javascript/index.js"></script>
     </div>
 </body>
 
