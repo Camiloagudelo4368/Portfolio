@@ -218,10 +218,18 @@ a {
     }
     #about_image {
         display: block;
-        width: 100%;
+        width: 80%;
         height: auto;
         border-radius: 2rem 2rem 2rem 2rem;
+        margin: 5% 10% 5% 10%;
     }
+
+#divAboutImage{
+    /* margin:0 auto; */
+    width: 100%;
+    text-align: center;
+}
+
     #about {
         background-color: #F5F5F5;
         padding: 5px 0px 40px 0px;
@@ -240,10 +248,10 @@ a {
         margin-top: 20px;
         font-size: 1rem;
         width: 100%;
-        line-height: 1.5;
+        /* line-height: 1.5; */
     }
     #sumaryHeader {
-        font-size: 1.2rem;
+        /* font-size: 2.5rem; */
     }
     .aboutContainer {
         padding: 0;
