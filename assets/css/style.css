@@ -1,4 +1,5 @@
 /* Overall page */
+
 .clearfix {
     overflow: auto;
 }
@@ -18,11 +19,11 @@ h1, h2, h3, ul {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-a{
+a {
     color: #777777;
 }
 
-.titleLanguages{
+.titleLanguages {
     color: #f26622;
 }
 
@@ -72,7 +73,7 @@ a{
 
 #about {
     background-color: #F5F5F5;
-    padding:10px 40px 40px 40px;
+    padding: 10px 40px 40px 40px;
     margin: 0 auto;
     border: 1px solid #FFFFFF;
     -moz-box-shadow: 0 0 22px #111;
@@ -80,7 +81,7 @@ a{
     box-shadow: 0 0 22px #111;
 }
 
-.aboutContainer{
+.aboutContainer {
     background-color: #F5F5F5;
     border: 1px solid #FFFFFF;
     -moz-box-shadow: 0 0 22px #111;
@@ -110,7 +111,8 @@ a{
     width: 100%;
     line-height: 2;
 }
-.rowBtn{
+
+.rowBtn {
     margin-top: 20px;
 }
 
@@ -119,21 +121,21 @@ a{
 /* Skills */
 
 #skills {
-    margin:0;
+    margin: 0;
 }
 
-.skillsContainer{
+.skillsContainer {
     padding: 5% 0 10% 0;
 }
 
-.imgSkills{
+.imgSkills {
     width: 80%;
-    height:auto;
+    height: auto;
 }
 
-.imgLanguage{
+.imgLanguage {
     width: 80px;
-    height:80px;
+    height: 80px;
     margin: 20px;
 }
 
@@ -141,7 +143,7 @@ a{
 
 /* Portfolio */
 
-#portfolio{
+#portfolio {
     background-color: #f8f8f8;
     margin: 0px 0 0px 0;
     padding: 70px 20px 100px 20px;
@@ -151,7 +153,7 @@ a{
     box-shadow: 0 0 22px #111;
 }
 
-#linkImg{
+#linkImg {
     width: 35px;
     height: 35px;
 }
@@ -162,15 +164,16 @@ a{
     margin: 0px 0;
 }
 
-.cardCustom{
+.cardCustom {
     background-color: #f8f8f8;
     width: 300px;
     margin-top: 20px;
     border: 1px solid #FFFFFF;
     -moz-box-shadow: 0 0 15px #cccccc;
     -webkit-box-shadow: 0 0 15px #ccc;
-    box-shadow: 0 0 15px #ccc;   
+    box-shadow: 0 0 15px #ccc;
 }
+
 /* ----------------------------------------------------------------------------- */
 
 /* Contact modal */
@@ -209,15 +212,31 @@ a{
         align-items: center;
         font-size: 26px;
     }
-
-    #about_image{
+    #about_image {
         display: block;
         width: 100%;
-        border-radius: 2rem 2rem 0 0;
+        height: auto;
+        border-radius: 2rem 2rem 2rem 2rem;
     }
-
-    .aboutContainer
-    {
+    #about {
+        background-color: #F5F5F5;
+        padding: 5px 0px 40px 0px;
+        margin: 0 auto;
+        border: 1px solid #FFFFFF;
+        -moz-box-shadow: 0 0 22px #111;
+        -webkit-box-shadow: 0 0 22px #111;
+        box-shadow: 0 0 22px #111;
+    }
+    #sumary {
+        margin-top: 20px;
+        font-size: 1rem;
+        width: 100%;
+        line-height: 1.5;
+    }
+    #sumaryHeader {
+        font-size: 1.2rem;
+    }
+    .aboutContainer {
         padding: 0;
     }
 }
