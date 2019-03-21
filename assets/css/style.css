@@ -71,7 +71,7 @@ a {
 
 /* About me */
 
-#about {
+#about {    
     background-color: #F5F5F5;
     padding: 10px 40px 40px 40px;
     margin: 0 auto;
@@ -79,6 +79,10 @@ a {
     -moz-box-shadow: 0 0 22px #111;
     -webkit-box-shadow: 0 0 22px #111;
     box-shadow: 0 0 22px #111;
+}
+
+.aboutRow{
+    height: 100%;
 }
 
 .aboutContainer {
@@ -227,6 +231,11 @@ a {
         -webkit-box-shadow: 0 0 22px #111;
         box-shadow: 0 0 22px #111;
     }
+
+    .aboutRow{
+        height: auto;
+    }
+
     #sumary {
         margin-top: 20px;
         font-size: 1rem;
