@@ -71,7 +71,7 @@ a {
 
 /* About me */
 
-#about {    
+#about {
     background-color: #F5F5F5;
     padding: 10px 40px 40px 40px;
     margin: 0 auto;
@@ -81,7 +81,7 @@ a {
     box-shadow: 0 0 22px #111;
 }
 
-.aboutRow{
+.aboutRow {
     height: 100%;
 }
 
@@ -178,6 +178,10 @@ a {
     box-shadow: 0 0 15px #ccc;
 }
 
+.card-text {
+    font-size: .85rem;
+}
+
 /* ----------------------------------------------------------------------------- */
 
 /* Contact modal */
@@ -223,13 +227,11 @@ a {
         border-radius: 2rem 2rem 2rem 2rem;
         margin: 5% 10% 5% 10%;
     }
-
-#divAboutImage{
-    /* margin:0 auto; */
-    width: 100%;
-    text-align: center;
-}
-
+    #divAboutImage {
+        /* margin:0 auto; */
+        width: 100%;
+        text-align: center;
+    }
     #about {
         background-color: #F5F5F5;
         padding: 5px 0px 40px 0px;
@@ -239,11 +241,9 @@ a {
         -webkit-box-shadow: 0 0 22px #111;
         box-shadow: 0 0 22px #111;
     }
-
-    .aboutRow{
+    .aboutRow {
         height: auto;
     }
-
     #sumary {
         margin-top: 20px;
         font-size: 1rem;
