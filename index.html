@@ -4,11 +4,12 @@
     <title>Camilo Agudelo</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div>
-        <nav class="navbar navbar-expand-sm fixed-top navbar-dark  navCa">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-light  navCa">
             <h1 id="headerBrand" class="text-primary headerBrand">Camilo Agudelo</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,29 +18,29 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a id="startLink" class="nav-link" href="#">Home</a>
+                        <a id="startLink" class="nav-link text-primary" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a id="sumaryLink" class="nav-link" href="#">Sumary</a>
+                        <a id="sumaryLink" class="nav-link text-primary" href="#">Sumary</a>
                     </li>
                     <li class="nav-item">
-                        <a id="skillsLink" class="nav-link" href="#">Skills</a>
+                        <a id="skillsLink" class="nav-link text-primary" href="#">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a id="portfolioLink" class="nav-link" href="#">Portfolio</a>
+                        <a id="portfolioLink" class="nav-link text-primary" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-target="#contactModal" data-toggle="modal">Contact</a>
+                        <a class="nav-link text-primary" href="mailto:camilo.agudelo4368@gmail.com">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div id="start">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-12 text-center">
                         <h2 class="header_content">Software Developer</h2>
-                        <img id="start_image" src="assets/images/Index/CamiloAgudeloAbout.jpg" alt="">
+                        <img id="start_image" src="assets/images/Index/profile.png" alt="">
                         <br>
                         <br>
                         <a href="mailto:camilo.agudelo4368@gmail.com">camilo.agudelo4368@gmail.com</a>
@@ -52,35 +53,37 @@
         </div>
 
         <div id="about">
-            <div class="container ">
+            <div class="container-fluid ">
                 <div class="row align-items-center text-center aboutRow">
                     <div class="col-1"></div>
                     <div class="col-lg-10 text-center my-auto ">
                         <div id="divAboutImage">
-                            <img id="about_image" class="" src="assets/images/Index/CamiloAgudeloAbout.jpg" alt="">
+                            <img id="about_image" class="" src="assets/images/Index/CamiloAgudeloAbout.png" alt="">
                         </div>
                         <div class="align-items-center text-left ">
-                            <h4 id="sumaryHeader" class="text-dark">I'm Camilo Agudelo <small class="text-danger">
-                                    Software
-                                    Developer</small></h4>
-                            <p id="sumary">Full Stack Web developer, with in depth experience in, but not limited to, Microsoft ASP.NET, and
-                                JavaScript. Front-End as well as Back-End experience in full life cycle of software, with more than 4 years
-                                working experience on site with Microsoft web forms, C-Sharp, SQL server. including Front-End
-                                technologies as HTML5, CSS3, JavaScript, Bootstrap and some other components involved in design and
+                            <h3 id="sumaryHeader" class="sumaryHeader">I'm Camilo Agudelo </h3>
+                            <p id="sumary" class="sumary">Full Stack Web developer, with in depth experience in, but not
+                                limited to,
+                                Microsoft ASP.NET, and
+                                JavaScript. Front-End as well as Back-End experience in full life cycle of software,
+                                with more than 4 years
+                                working experience on site with Microsoft web forms, C-Sharp, SQL server. including
+                                Front-End
+                                technologies as HTML5, CSS3, JavaScript, Bootstrap and some other components involved in
+                                design and
                                 development of the project. Specially emphasis on problem analysis and solving.</p>
                         </div>
                         <div class="col-lg-4"></div>
                         <div class="row">
                             <div class="col-12 text-right">
-                                <a name="" id="" class="btn btn-outline-danger rowBtn"
+                                <a name="" id="" class="btn btn-outline-dark rowBtn"
                                     href="https://drive.google.com/file/d/1GhWo5Ba8TRRYWBWixXjeB628f78MWHAz/view?usp=sharing"
                                     role="button">Resume</a>
-                                <a name="" id="" class="btn btn-warning rowBtn" href="#" role="button"
-                                    data-target="#contactModal" data-toggle="modal">Contact me</a>
+                                <a name="" id="" class="btn btn-outline-secondary rowBtn" href="#" role="button"
+                                    href="mailto:camilo.agudelo4368@gmail.com">Contact me</a>
                                 <a href="https://www.linkedin.com/in/hernan-camilo-agudelo-102416b3/"
-                                    class="btn btn-outline-light rowBtn">
-                                    <img id="linkImg" src="assets/images/Icons/SVG-color/Linkedin.svg" alt=""
-                                        srcset=""></a>
+                                    class="btn  rowBtn">
+                                    <img id="linkImg" src="assets/images/Icons/SVG-color/Linkedin.svg"></a>
                             </div>
                         </div>
                     </div>
@@ -88,9 +91,10 @@
             </div>
         </div>
 
+
         <div id="skills">
-            <div class="container text-center my-auto skillsContainer">
-                <div class="row">
+            <div class="container-fluid text-center my-auto ">
+                <!-- <div class="row">
                     <div class="col-lg-2 col-md-2 col-sm-0 col-xs-2"></div>
                     <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 text-center">
                         <img class="imgSkills" src="assets/images/Icons/Skills.png" alt="">
@@ -98,17 +102,17 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 my-auto">
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-8">
                         <h5 class="titleLanguages text-center">THE SKILLS</h5>
-                        <br>
+
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-9 text-left">
+                <div class="row skills">
+                    <!-- <div class="col-2"></div> -->
+                    <div class="col text-left">
                         <img class="imgLanguage" src="assets/images/Icons/SVG-color/img_js.png" alt="">
                         <img class="imgLanguage" src="assets/images/Icons/SVG-color/html5-color.svg" alt="">
                         <img class="imgLanguage" src="assets/images/Icons/SVG-color/Css3.svg" alt="">
@@ -123,16 +127,343 @@
                         <img class="imgLanguage" src="assets/images/Icons/SVG-color/Github.svg" alt="">
                         <img class="imgLanguage" src="assets/images/Icons/SVG-color/Visual studio.svg" alt="">
                     </div>
-                    <div class="col-1"></div>
+                    <!-- <div class="col-1"></div> -->
                 </div>
             </div>
         </div>
 
         <div id="portfolio">
-            <div class="container text-center">
+            <div class="container-fluid">
                 <h5 class="titleLanguages text-center">THE PROJECTS</h5>
                 <br>
-                <div class="card-deck">
+                <div id="accordion">
+                    <div class="card">
+                        <!-- LIRI -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseLiri" aria-expanded="true" aria-controls="collapseLiri">
+                            <div class="card-header" id="headingLiri">
+                                <h5 class="mb-0">
+                                    LIRI </h5>
+                            </div>
+                        </button>
+                        <div id="collapseLiri" class="collapse" aria-labelledby="headingLiri" data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <video class="portfolio_image" src="assets/Videos/LiriCamiloAgudelo.mov"
+                                            controls></video>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <h3 class="portfolioHeader">LIRI</h3>
+                                        <p class="portfolioDescription">LIRI is a "Language" Interpretation and
+                                            Recognition
+                                            Interface.
+                                            LIRI
+                                            will be a command line node app that takes in parameters and gives you back
+                                            data.
+                                        </p>
+                                        <div class="">
+                                            <div class="text-left w-50 float-left">
+                                            </div>
+                                            <div class="text-right w-50 float-right">
+                                                <a href="https://github.com/Camiloagudelo4368/liri-node-app.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- BESCIPE -->
+
+
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseBescipe" aria-expanded="true" aria-controls="collapseBescipe">
+                            <div class="card-header" id="headingBescipe">
+                                <h5 class="mb-0">
+                                    BESCIPE </h5>
+                            </div>
+                        </button>
+
+                        <div id="collapseBescipe" class="collapse" aria-labelledby="headingBescipe">
+                            <div class="row portfolioRow">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img class="card-img-top portfolio_image" src="assets/images/Portfolio/Bescipe.png">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="portfolioHeader">Bescipe</h3>
+                                    <p class="portfolioDescription">Let us pick your best recipe.</p>
+                                    <div class="">
+                                        <div class="text-left w-50 float-left">
+                                            <a href="https://camiloagudelo4368.github.io/Becipe/"
+                                                class="btn btn-outline-primary">Web Site</a>
+                                        </div>
+                                        <div class="text-right w-50 float-right">
+                                            <a href="https://github.com/Camiloagudelo4368/Becipe.git"
+                                                class="btn btn-outline-light">
+                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                    srcset=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TRIVIA GAME -->
+
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseTrivia" aria-expanded="true" aria-controls="collapseTrivia">
+                            <div class="card-header" id="headingTrivia">
+                                <h5 class="mb-0">
+                                    TRIVIA GAME </h5>
+                            </div>
+                        </button>
+                        <div id="collapseTrivia" class="collapse" aria-labelledby="headingTrivia">
+                            <div class="row portfolioRow">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img class="card-img-top portfolio_image"
+                                        src="assets/images/Portfolio/TriviaGame.png">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="portfolioHeader">Trivia Game</h3>
+                                    <p class="portfolioDescription">How is knowledge about soccer.</p>
+                                    <div class="">
+                                        <div class="text-left w-50 float-left">
+                                            <a href="https://camiloagudelo4368.github.io/TriviaGame"
+                                                class="btn btn-outline-primary">Web Site</a>
+                                        </div>
+                                        <div class="text-right w-50 float-right">
+                                            <a href="https://github.com/Camiloagudelo4368/TriviaGame.git"
+                                                class="btn btn-outline-light"> <img
+                                                    src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                    srcset=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- GIFTASTIC -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseGiftastic" aria-expanded="true" aria-controls="collapseGiftastic">
+                            <div class="card-header" id="headingGiftastic">
+                                <h5 class="mb-0">
+                                    GIFTASTIC </h5>
+                            </div>
+                        </button>
+                        <div id="collapseGiftastic" class="collapse" aria-labelledby="headingGiftastic">
+                            <div class="row portfolioRow">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img class="card-img-top portfolio_image"
+                                        src="assets/images/Portfolio/GifTastic.png">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="portfolioHeader">GifTastic</h3>
+                                    <p class="portfolioDescription">Check some funy Gifs from GifTastic API.</p>
+                                    <div class="">
+                                        <div class="text-left w-50 float-left">
+                                            <a href="https://camiloagudelo4368.github.io/GifTastic"
+                                                class="btn btn-outline-primary">Web Site</a>
+                                        </div>
+                                        <div class="text-right w-50 float-right">
+                                            <a href="https://github.com/Camiloagudelo4368/GifTastic.git"
+                                                class="btn btn-outline-light"> <img
+                                                    src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                    srcset=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- THE WORD GUESS GAME -->
+
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseWordGuessGame" aria-expanded="true"
+                            aria-controls="collapseWordGuessGame" href="#collapseWordGuessGame">
+                            <div class="card-header" id="headingWordGuessGame">
+                                <h5 class="mb-0">
+                                    THE WORD GUESS GAME </h5>
+                            </div>
+                        </button>
+                        <div id="collapseWordGuessGame" class="collapse" aria-labelledby="headingWordGuessGame">
+                            <div class="row portfolioRow">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img class="card-img-top portfolio_image"
+                                        src="assets/images/Portfolio/Word-Guess-Game.png">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="portfolioHeader">The Word Guess Game</h3>
+                                    <p class="portfolioDescription">Try to find the name of the city showed in the
+                                        picture
+                                        and
+                                        get a
+                                        little
+                                        description.</p>
+                                    <div class="">
+                                        <div class="text-left w-50 float-left">
+                                            <a href="https://camiloagudelo4368.github.io/Word-Guess-Game/"
+                                                class="btn btn-outline-primary">Web Site</a>
+                                        </div>
+                                        <div class="text-right w-50 float-right">
+                                            <a href="https://github.com/Camiloagudelo4368/Word-Guess-Game.git"
+                                                class="btn btn-outline-light"> <img
+                                                    src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                    srcset=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- THE KING OF FIGHTERS BATTLE -->
+
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseKOF" aria-expanded="true" aria-controls="collapseKOF">
+                            <div class="card-header" id="headingKOF">
+                                <h5 class="mb-0">
+                                    THE KING OF FIGHTERS BATTLE </h5>
+                            </div>
+                        </button>
+                        <div id="collapseKOF" class="collapse" aria-labelledby="headingKOF">
+                            <div class="row portfolioRow">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img class="card-img-top portfolio_image"
+                                        src="assets/images/Portfolio/unit-4-game.png">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="portfolioHeader">The King of Fighters Battle</h3>
+                                    <p class="portfolioDescription">Choose your player and bit the opositors.</p>
+                                    <div class="">
+                                        <div class="text-left w-50 float-left">
+                                            <a href="https://camiloagudelo4368.github.io/unit-4-game/"
+                                                class="btn btn-outline-primary">Web Site</a>
+                                        </div>
+                                        <div class="text-right w-50 float-right">
+                                            <a href="https://github.com/Camiloagudelo4368/unit-4-game.git"
+                                                class="btn btn-outline-light"> <img
+                                                    src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                    srcset=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <!-- <div class="row portfolioRow">
+                    <div class="col-6">
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/Bescipe.png">
+                    </div>
+                    <div class="col-6">
+                        <h3 class="portfolioHeader">Bescipe</h3>
+                        <p class="portfolioDescription">Let us pick your best recipe.</p>
+                        <div class="">
+                            <div class="text-left w-50 float-left">
+                                <a href="https://camiloagudelo4368.github.io/Becipe/"
+                                    class="btn btn-outline-primary">Web Site</a>
+                            </div>
+                            <div class="text-right w-50 float-right">
+                                <a href="https://github.com/Camiloagudelo4368/Becipe.git" class="btn btn-outline-light">
+                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- 3 -->
+                <!-- <div class="row portfolioRow">
+                    <div class="col-6">
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/TriviaGame.png">
+                    </div>
+                    <div class="col-6">
+                        <h3 class="portfolioHeader">Trivia Game</h3>
+                        <p class="portfolioDescription">How is knowledge about soccer.</p>
+                        <div class="">
+                            <div class="text-left w-50 float-left">
+                                <a href="https://camiloagudelo4368.github.io/TriviaGame"
+                                    class="btn btn-outline-primary">Web Site</a>
+                            </div>
+                            <div class="text-right w-50 float-right">
+                                <a href="https://github.com/Camiloagudelo4368/TriviaGame.git"
+                                    class="btn btn-outline-light"> <img
+                                        src="assets/images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- 4 -->
+                <!-- <div class="row portfolioRow">
+                    <div class="col-6">
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/GifTastic.png">
+                    </div>
+                    <div class="col-6">
+                        <h3 class="portfolioHeader">GifTastic</h3>
+                        <p class="portfolioDescription">Check some funy Gifs from GifTastic API.</p>
+                        <div class="">
+                            <div class="text-left w-50 float-left">
+                                <a href="https://camiloagudelo4368.github.io/GifTastic"
+                                    class="btn btn-outline-primary">Web Site</a>
+                            </div>
+                            <div class="text-right w-50 float-right">
+                                <a href="https://github.com/Camiloagudelo4368/GifTastic.git"
+                                    class="btn btn-outline-light"> <img
+                                        src="assets/images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- 5 -->
+                <!-- <div class="row portfolioRow">
+                    <div class="col-6">
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/Word-Guess-Game.png">
+                    </div>
+                    <div class="col-6">
+                        <h3 class="portfolioHeader">The Word Guess Game</h3>
+                        <p class="portfolioDescription">Try to find the name of the city showed in the picture and
+                            get a
+                            little
+                            description.</p>
+                        <div class="">
+                            <div class="text-left w-50 float-left">
+                                <a href="https://camiloagudelo4368.github.io/Word-Guess-Game/"
+                                    class="btn btn-outline-primary">Web Site</a>
+                            </div>
+                            <div class="text-right w-50 float-right">
+                                <a href="https://github.com/Camiloagudelo4368/Word-Guess-Game.git"
+                                    class="btn btn-outline-light"> <img
+                                        src="assets/images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- 6 -->
+                <!-- <div class="row portfolioRow">
+                    <div class="col-6">
+                        <img class="card-img-top portfolio_image" src="assets/images/Portfolio/unit-4-game.png">
+                    </div>
+                    <div class="col-6">
+                        <h3 class="portfolioHeader">The King of Fighters Battle</h3>
+                        <p class="portfolioDescription">Choose your player and bit the opositors.</p>
+                        <div class="">
+                            <div class="text-left w-50 float-left">
+                                <a href="https://camiloagudelo4368.github.io/unit-4-game/"
+                                    class="btn btn-outline-primary">Web Site</a>
+                            </div>
+                            <div class="text-right w-50 float-right">
+                                <a href="https://github.com/Camiloagudelo4368/unit-4-game.git"
+                                    class="btn btn-outline-light"> <img
+                                        src="assets/images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="card-deck">
                     <div class="card border-warning cardCustom">
                         <video class="portfolio_image" src="assets/Videos/LiriCamiloAgudelo.mov" controls></video>
                         <div class="card-body">
@@ -247,71 +578,71 @@
                                         src="assets/images/Icons/SVG-color/GithubButton.svg" alt="" srcset=""></a>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
             </div>
         </div>
+    </div>
 
-        <div id="contactModal" class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content bg-light">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="gridModalLabel">Contact</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                aria-hidden="true">×</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container-fluid bd-example-row">
-                            <div class="main_content">
-                                <div class="container" style="max-width:960px;">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <label for="txt_name">Name</label>
-                                            <input id="txt_name" type="text" class="text_box">
-                                        </div>
+    <div id="contactModal" class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gridModalLabel">Contact</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid bd-example-row">
+                        <div class="main_content">
+                            <div class="container" style="max-width:960px;">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label for="txt_name">Name</label>
+                                        <input id="txt_name" type="text" class="text_box">
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <label for="">Email</label>
-                                            <input id="txt_email" type="email" required class="text_box">
-                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label for="">Email</label>
+                                        <input id="txt_email" type="email" required class="text_box">
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <label for="txt_message">Message</label>
-                                            <textarea name="Message" id="txt_message" cols="30" rows="6"
-                                                class="text_box"></textarea>
-                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label for="txt_message">Message</label>
+                                        <textarea name="Message" id="txt_message" cols="30" rows="6"
+                                            class="text_box"></textarea>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Send</button>
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send</button>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 footer_style bg-dark align-middle">
-                    <footer>Copyright 2019© Camilo Agudelo</footer>
-                </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 footer_style align-middle">
+                <footer>Copyright 2019© Camilo Agudelo</footer>
             </div>
         </div>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-            integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <script src="assets/javascript/index.js"></script>
+    </div>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/index.js"></script>
     </div>
 </body>
 

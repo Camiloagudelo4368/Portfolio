@@ -21,3 +21,4 @@ $("#portfolioLink").click(function() {
         scrollTop: $("#portfolio").offset().top},
         'slow');
 });
+
