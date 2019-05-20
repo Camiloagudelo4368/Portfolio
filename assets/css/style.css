@@ -224,9 +224,13 @@ a {
 }
 
 .portfolio_image {
-    width: 95%;
+    width: 100%;
     height: auto;
     margin: 0px 0;
+    border: 1px solid #FFFFFF;
+    -moz-box-shadow: 0 0 15px #cccccc;
+    -webkit-box-shadow: 0 0 15px #ccc;
+    box-shadow: 0 0 15px #ccc;
 }
 
 .cardCustom {
