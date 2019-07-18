@@ -1,0 +1,12 @@
+
+.dark-primary-color    { background: #1976D2 !important; }
+.dark-primary-text    { color: #1976D2 !important; }
+/* .default-primary-color { background: #2196F3 !important; } */
+.default-primary-color { background: #2196F3; }
+.light-primary-color   { background: #BBDEFB !important; }
+.text-primary-color    { color: #FFFFFF !important; }
+.text-secondary-color    { color: #FFC107 !important; }
+.primary-text-color    { color: #212121 !important; }
+.secondary-text-color  { color: #757575 !important; }
+.divider-color         { border-color: #BDBDBD !important; }
+.text-divider-color         { color: #BDBDBD !important; }
