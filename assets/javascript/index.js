@@ -28,6 +28,12 @@ $("#startLink").click(function (e) {
         'slow');
 });
 
+function goSumary(){
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top
+    },
+        'slow');
+}
 
 $("#sumaryLink").click(function (e) {
     e.preventDefault()    

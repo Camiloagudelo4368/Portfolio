@@ -11,105 +11,105 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dak fixed-top navCa">
-        <h4 id="headerBrand" class="text-primary-color">Camilo Agudelo</h4>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-                <div class="menuIcon"></div>
-                <div class="menuIcon"></div>
-                <div class="menuIcon"></div>
-            </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a id="startLink" class="nav-link navLink" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a id="sumaryLink" class="nav-link navLink" href="#">SUMARY</a>
-                </li>
-                <li class="nav-item">
-                    <a id="skillsLink" class="nav-link navLink" href="#">SKILLS</a>
-                </li>
-                <li class="nav-item">
-                    <a id="portfolioLink" class="nav-link navLink" href="#">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link navLink" href="mailto:camilo.agudelo4368@gmail.com">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div id="start">
+    <!-- <div style='position: relative;'> -->
+    <div>
+        <nav class="navbar navbar-expand-sm navbar-dak fixed-top navCa">
+            <h4 id="headerBrand" class="text-primary-color">Camilo Agudelo</h4>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                    <div class="menuIcon"></div>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="startLink" class="nav-link navLink" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="sumaryLink" class="nav-link navLink" href="#">SUMARY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="skillsLink" class="nav-link navLink" href="#">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="portfolioLink" class="nav-link navLink" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navLink" href="mailto:camilo.agudelo4368@gmail.com">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="start">
 
-        <div class="bg_image"></div>
-        <div class="arrowCaption1">
-            <img class="arrowImg" src="assets/images/Index/gif-bounce-arrow.gif">
-        </div>
-        <div class="arrowCaption2">
-            <img class="arrowImg" src="assets/images/Index/gif-bounce-arrow.gif">
-        </div>
-        <!-- <div class="startContent"> -->
-        <!-- <div class="container-fluid"> -->
-        <div class="row startContent">
-            <div class="col-lg-12 text-center">
-                <h2 class="header_content text-primary-color">Software Developer</h2>
-                <!-- <img id="start_image" src="assets/images/Index/profile.png" alt=""> -->
-                <br>
-                <p class='text-primary-color startSubText'>Certified Full Stack Software Developer <br>
-                    <!--MERN (MongoDB, Express, React, Node) -->
-                    by Columbia Engineering intensive Boot Camp.
-                </p>
-                <br>
-                <!-- <a class="text-secondary-color"
+            <div class="bg_image"></div>
+            <div class="arrowContainer">
+                <div>
+                    <img onclick="goSumary()" class="arrowImg" src="assets/images/Index/gif-bounce-arrow2.gif">
+                </div>
+            </div>
+
+            <div class="row startContent">
+                <div class="col-lg-12 text-center">
+                    <h2 class="header_content text-primary-color">Software Developer</h2>
+                    <br>
+                    <p class='text-primary-color startSubText'>Certified Full Stack Software Developer <br>
+                        by Columbia Engineering intensive Boot Camp.
+                    </p>
+                    <br>
+                    <!-- <a class="text-secondary-color"
                     href="mailto:camilo.agudelo4368@gmail.com">camilo.agudelo4368@gmail.com</a>
                 <br>
                 <a class="text-secondary-color" href="tel:13478254435">347-825-4435</a>
                 <br> -->
+                </div>
+                <!-- </div> -->
             </div>
             <!-- </div> -->
         </div>
-        <!-- </div> -->
-    </div>
 
-    <div id="about">
-        <div class="container">
-            <div class="row aboutRow">
-                <!-- <div class="col-1"></div> -->
-                <div class="col-lg-6 col-xs-12 col-md-12 col-sm-12 text-center my-auto ">
-                    <div>
-                        <img id="about_image" class="" src="assets/images/Index/CamiloAgudeloAbout.png" alt="">
+        <div id="about">
+            <div class="container">
+                <div class="row aboutRow">
+                    <div class="col-lg-6 col-xs-12 col-md-12 col-sm-12 text-center my-auto ">
+                        <div>
+                            <img id="about_image" class="" src="assets/images/Index/CamiloAgudeloAbout.png" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-xs-12 col-md-12 col-sm-12 sumaryText">
-                    <div class="text-left">
-                        <h3 id="sumaryHeader" class="sumaryHeader">ABOUT ME</h3>
-                        <p id="sumary" class="sumary">Certified Full Stack Software Developer MERN (MongoDB,
-                            Express, React, Node)
-                            by Columbia Engineering intensive Boot Camp.
-                        </p>
-                        <p id="sumary" class="sumary">
-                            With more than 4 years of previous experience as a Microsoft Full Stack Software
-                            Developer able to work with ASP.NET, Web Forms, C-Sharp, SQL server including Front-End
-                            technologies as HTML5, CSS3, JavaScript, Bootstrap and some other components involved in
-                            design and development of the project. Specially emphasis in problem analysis and
-                            solving.
-                        </p>
-                        <br>
-                        <br>
-                        <br>
-                        <br>                        
-                        <p id="sumary" class="">
-                            <strong>GitHub:</strong>&nbsp;<a
-                                href="https://github.com/Camiloagudelo4368">https://github.com/Camiloagudelo4368</a>
+                    <div class="col-lg-6 col-xs-12 col-md-12 col-sm-12 sumaryText">
+                        <div class="text-left">
+                            <h3 id="sumaryHeader" class="sumaryHeader">ABOUT ME</h3>
+                            <p id="sumary" class="sumary">Certified Full Stack Software Developer MERN (MongoDB,
+                                Express, React, Node)
+                                by Columbia Engineering intensive Boot Camp.
+                            </p>
+                            <p id="sumary" class="sumary">
+                                With more than 4 years of previous experience as a Microsoft Full Stack Software
+                                Developer able to work with ASP.NET, Web Forms, C-Sharp, SQL server including Front-End
+                                technologies as HTML5, CSS3, JavaScript, Bootstrap and some other components involved in
+                                design and development of the project. Specially emphasis in problem analysis and
+                                solving.
+                            </p>
                             <br>
-                            <strong>Portfolio:</strong>&nbsp<a
-                                href="https://camiloagudelo4368.github.io/Portfolio">https://camiloagudelo4368.github.io/Portfolio</a>
-
-                        </p>
-                    </div>
-                    <!-- <div class="row">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p id="sumary">
+                                <a href="https://drive.google.com/file/d/1T3-WfiFG8SfHDh__imgyRqHa3vL4IdPG/view?usp=sharing"><strong>Resume</strong></a>
+                                <span class="text-divider-color">|</span>
+                                <a href="https://camiloagudelo4368.github.io/Portfolio"><strong>Portfolio</strong></a>
+                                <span class="text-divider-color">|</span>
+                                <a href="https://www.linkedin.com/in/hernan-camilo-agudelo-102416b3/"><strong>LinkedIn
+                                        Profile</strong></a>
+                                <span class="text-divider-color">|</span>
+                                <a href="https://github.com/Camiloagudelo4368"><strong>GitHub Repository</strong></a>
+                            </p>
+                        </div>
+                        <!-- <div class="row">
                         <div class="col-12 text-left">
                             <a name="" id="" class="btn btn-block btn-outline-dark rowBtn"
                                 href="https://drive.google.com/file/d/1T3-WfiFG8SfHDh__imgyRqHa3vL4IdPG/view?usp=sharing"
@@ -120,458 +120,458 @@
                                 <img id="linkImg" src="assets/images/Icons/SVG-color/Linkedin.svg"></a>
                         </div>
                     </div> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- </div> -->
+        <!-- </div> -->
 
-    <div id="skills">
-        <div class="container-fluid text-center my-auto ">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <h5 class="titleLanguages text-center">THE SKILLS</h5>
-
+        <div id="skills">
+            <!-- <div class="container-fluid text-center my-auto "> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="skillsHeader">SKILLS</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="row skills">
-                <!-- <div class="col-2"></div> -->
-                <div class="col text-left">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/img_js.png" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/html5-color.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Css3.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/bootstrap-color.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/ajax-color.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Jquery.svg" alt="JQuery">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Csharp.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Sql.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Node Js.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Mysql.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Microsoft Dotnet.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Github.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/SVG-color/Visual studio.svg" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/react.png" alt="">
-                    <img class="imgLanguage" src="assets/images/Icons/mongodb.png" alt="">
+                <div class="row skills">
+                    <div class="col text-left">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/img_js.png" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/html5-color.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Css3.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/bootstrap-color.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/ajax-color.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Jquery.svg" alt="JQuery">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Csharp.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Sql.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Node Js.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Mysql.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Microsoft Dotnet.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Github.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/SVG-color/Visual studio.svg" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/react.png" alt="">
+                        <img class="imgLanguage" src="assets/images/Icons/mongodb.png" alt="">
+                    </div>
                 </div>
-                <!-- <div class="col-1"></div> -->
             </div>
         </div>
-    </div>
 
-    <div id="portfolio">
-        <div class="container-fluid">
-            <h5 class="titleLanguages text-center">THE PROJECTS</h5>
+        <div id="portfolio">
+            <div class="container-fluid">
+                <h5 class="skillsHeader text-center">PROJECTS</h5>
+                <br>
+                <div id="accordion">
+                    <div class="card">
+                        <!-- YOLO App -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseYolo" aria-expanded="true" aria-controls="collapseYolo">
+                            <div class="card-header" id="headingYolo">
+                                <h5 class="mb-0">YOLO App</h5>
+                            </div>
+                        </button>
+                        <div id="collapseYolo" class="collapse" aria-labelledby="headingYolo" data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/yolo.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">YOLO App</h3>
+                                        <h4>Achieve your health and wellness goals!</h4>
+                                        <br>
+                                        <p class="portfolioDescription">This is a calories management app. Each user can
+                                            create their own profile and track what they eat .
+                                            Based on how many calories the user wants to get we will suggest food that
+                                            options that contains the calories desired as well as restaurants in the
+                                            area where they can find these options.
+                                        </p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://lit-refuge-83703.herokuapp.com/"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/camiloyolo"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg"
+                                                        alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Clicky Game -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseClickyGame" aria-expanded="true" aria-controls="collapseClickyGame">
+                            <div class="card-header" id="headingClickyGame">
+                                <h5 class="mb-0">Clicky Game</h5>
+                            </div>
+                        </button>
+                        <div id="collapseClickyGame" class="collapse" aria-labelledby="headingClickyGame"
+                            data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/clickygame.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">Clicky Game</h3>
+                                        <h4>Workout your memory!</h4>
+                                        <br>
+                                        <p class="portfolioDescription">This is a web web application that helps users
+                                            to exercise their memory by displaying images in a random order each time
+                                            the user chooses one.
+                                            Created with React.js, the application's UI has been broken into components,
+                                            managing component state and responding to user events.</p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://camiloagudelo4368.github.io/clickygame/"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/clickygame"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The New York Post Metro Scrape -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseCommenews" aria-expanded="true" aria-controls="collapseCommenews">
+                            <div class="card-header" id="headingCommenews">
+                                <h5 class="mb-0">The New York Post Metro Scrape</h5>
+                            </div>
+                        </button>
+                        <div id="collapseCommenews" class="collapse" aria-labelledby="headingCommenews"
+                            data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/commenews.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">The New York Post Metro Scrape</h3>
+                                        <h4>All the News That's Fit to Scrape.</h4>
+                                        <br>
+                                        <p class="portfolioDescription">This is a web app that lets users view and
+                                            leave
+                                            comments on the latest news. Created with Mongoose and Cheerio muscles
+                                            to
+                                            scrape news from New York Post Metro section.
+                                            The web application has been deployed on Heroku and use mongoDB to
+                                            storage
+                                            articles and comments.</p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://lit-thicket-53235.herokuapp.com"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/commenews.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- LIRI -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseLiri" aria-expanded="true" aria-controls="collapseLiri">
+                            <div class="card-header" id="headingLiri">
+                                <h5 class="mb-0">Liri </h5>
+                            </div>
+                        </button>
+                        <div id="collapseLiri" class="collapse" aria-labelledby="headingLiri" data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <video class="portfolio_image" src="assets/Videos/LiriCamiloAgudelo.mov"
+                                            controls></video>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">Liri</h3>
+                                        <h4>Hey Liri!!!</h4>
+                                        <br>
+                                        <p class="portfolioDescription">
+                                            LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation
+                                            and Recognition Interface, LIRI is a "Language" Interpretation and
+                                            Recognition Interface. LIRI is a command line node app that takes in
+                                            parameters and gives you back data.
+                                        </p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://github.com/Camiloagudelo4368/liri-node-app.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- BESCIPE -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseBescipe" aria-expanded="true" aria-controls="collapseBescipe">
+                            <div class="card-header" id="headingBescipe">
+                                <h5 class="mb-0">Bescipe</h5>
+                            </div>
+                        </button>
+                        <div id="collapseBescipe" class="collapse" aria-labelledby="headingBescipe"
+                            data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/Bescipe.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">Bescipe</h3>
+                                        <h4>Let us pick the best recipes for you.</h4>
+                                        <br>
+                                        <p class="portfolioDescription">This is a web application that allows users to
+                                            search for any recipe based on the ingredients they have in their fridge.
+                                            The application brings information from the yummly API and displays it in a
+                                            simple and easy to read form, which gives you the possibility to go to the
+                                            yummly website and see the complete recipe.</p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://camiloagudelo4368.github.io/Becipe"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/Becipe.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TRIVIA GAME -->
+
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseTrivia" aria-expanded="true" aria-controls="collapseTrivia">
+                            <div class="card-header" id="headingTrivia">
+                                <h5 class="mb-0">Trivia Game</h5>
+                            </div>
+                        </button>
+                        <div id="collapseTrivia" class="collapse" aria-labelledby="headingTrivia"
+                            data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/TriviaGame.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">Trivia Game</h3>
+                                        <h4>How is your knowledge about soccer.</h4>
+                                        <br>
+                                        <p class="portfolioDescription">Trivia game uses JavaScript for the logic and
+                                            jQuery to manipulate HTML. the layout was created with HTML and stylished
+                                            with CSS. </p>
+                                        <p class="portfolioDescription">Answer the questions within the time of 10
+                                            seconds, the app will show you a Gif based on your answer, by the end you
+                                            will have a number of correct and incorrect answers.</p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://camiloagudelo4368.github.io/TriviaGame"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/TriviaGame.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- GIFTASTIC -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseGiftastic" aria-expanded="true" aria-controls="collapseGiftastic">
+                            <div class="card-header" id="headingGiftastic">
+                                <h5 class="mb-0">Giftastic</h5>
+                            </div>
+                        </button>
+                        <div id="collapseGiftastic" class="collapse" aria-labelledby="headingGiftastic"
+                            data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/GifTastic.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">GifTastic</h3>
+                                        <h4>Check some funy Gifs from GifTastic API.</h4>
+                                        <br>
+                                        <p class="portfolioDescription">Giftastic uses JavaScript for the logic and
+                                            jQuery to manipulate HTML. the layout was created with HTML and stylished
+                                            with CSS and Bootstrap.</p>
+                                        <p class="portfolioDescription">The app uses the GIPHY API to request Gifs based
+                                            on the user preference topic.</p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://camiloagudelo4368.github.io/GifTastic"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/Giftastic.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- THE WORD GUESS GAME -->
+
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseWordGuessGame" aria-expanded="true"
+                            aria-controls="collapseWordGuessGame" href="#collapseWordGuessGame">
+                            <div class="card-header" id="headingWordGuessGame">
+                                <h5 class="mb-0">The Word Guess Game </h5>
+                            </div>
+                        </button>
+                        <div id="collapseWordGuessGame" class="collapse" aria-labelledby="headingWordGuessGame"
+                            data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/WordGuessGame.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">The Word Guess Game</h3>
+                                        <h4>Lets discover the world.</h4>
+                                        <br>
+                                        <p class="portfolioDescription">Giftastic uses JavaScript for the logic and
+                                            jQuery to manipulate HTML. the layout was created with HTML and stylished
+                                            with CSS and Bootstrap.</p>
+                                        <p class="portfolioDescription">The app uses the GIPHY API to request Gifs based
+                                            on the user preference topic.</p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://camiloagudelo4368.github.io/Word-Guess-Game"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/Word-Guess-Game.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- THE KING OF FIGHTERS BATTLE -->
+                        <button class="btn btn-link text-left text-primary" data-toggle="collapse"
+                            data-target="#collapseKOF" aria-expanded="true" aria-controls="collapseKOF">
+                            <div class="card-header" id="headingKOF">
+                                <h5 class="mb-0">The King of Fighters Battle</h5>
+                            </div>
+                        </button>
+
+                        <div id="collapseKOF" class="collapse" aria-labelledby="headingKOF" data-parent="#accordion">
+                            <div class="container-fluid">
+                                <div class="row portfolioRow align-items-top">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                                        <img class="card-img-top portfolio_image"
+                                            src="assets/images/Portfolio/unit-4-game.png">
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
+                                        <h3 class="portfolioHeader">The King of Fighters Battle</h3>
+                                        <h4>The most epic battle!!!.</h4>
+                                        <br>
+                                        <p class="portfolioDescription">Choose your player and bit the opositors.</p>
+                                        <p class="portfolioDescription">The app uses JavaScript for the logic and jQuery
+                                            to manipulate HTML. the layout was created with HTML and stylished
+                                            with CSS .</p>
+                                        <div>
+                                            <div class="text-left">
+                                                <a href="https://camiloagudelo4368.github.io/unit-4-game"
+                                                    class="btn btn-outline-primary">Web Site</a>
+
+                                                <a href="https://github.com/Camiloagudelo4368/unit-4-game.git"
+                                                    class="btn btn-outline-light">
+                                                    <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
+                                                        srcset=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br>
-            <div id="accordion">
-                <div class="card">
-                    <!-- YOLO App -->
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseYolo" aria-expanded="true" aria-controls="collapseYolo">
-                        <div class="card-header" id="headingYolo">
-                            <h5 class="mb-0">YOLO App</h5>
-                        </div>
-                    </button>
-                    <div id="collapseYolo" class="collapse" aria-labelledby="headingYolo" data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image" src="assets/images/Portfolio/yolo.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">YOLO App</h3>
-                                    <h4>Achieve your health and wellness goals!</h4>
-                                    <br>
-                                    <p class="portfolioDescription">This is a calories management app. Each user can
-                                        create their own profile and track what they eat .
-                                        Based on how many calories the user wants to get we will suggest food that
-                                        options that contains the calories desired as well as restaurants in the
-                                        area where they can find these options.
-                                    </p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://lit-refuge-83703.herokuapp.com/"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/camiloyolo"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""></a>
+            <br>
+            <div class="footer_style align-middle">
+                <footer>Copyright 2019© Camilo Agudelo</footer>
+            </div>
+        </div>
+        <div id="contactModal" class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content bg-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="gridModalLabel">Contact</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid bd-example-row">
+                            <div class="main_content">
+                                <div class="container" style="max-width:960px;">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label for="txt_name">Name</label>
+                                            <input id="txt_name" type="text" class="text_box">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label for="">Email</label>
+                                            <input id="txt_email" type="email" required class="text_box">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label for="txt_message">Message</label>
+                                            <textarea name="Message" id="txt_message" cols="30" rows="6"
+                                                class="text_box"></textarea>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Clicky Game -->
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseClickyGame" aria-expanded="true" aria-controls="collapseClickyGame">
-                        <div class="card-header" id="headingClickyGame">
-                            <h5 class="mb-0">Clicky Game</h5>
-                        </div>
-                    </button>
-                    <div id="collapseClickyGame" class="collapse" aria-labelledby="headingClickyGame"
-                        data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image"
-                                        src="assets/images/Portfolio/clickygame.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">Clicky Game</h3>
-                                    <h4>Workout your memory!</h4>
-                                    <br>
-                                    <p class="portfolioDescription">This is a web web application that helps users
-                                        to exercise their memory by displaying images in a random order each time
-                                        the user chooses one.
-                                        Created with React.js, the application's UI has been broken into components,
-                                        managing component state and responding to user events.</p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://camiloagudelo4368.github.io/clickygame/"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/clickygame"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- The New York Post Metro Scrape -->
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseCommenews" aria-expanded="true" aria-controls="collapseCommenews">
-                        <div class="card-header" id="headingCommenews">
-                            <h5 class="mb-0">The New York Post Metro Scrape</h5>
-                        </div>
-                    </button>
-                    <div id="collapseCommenews" class="collapse" aria-labelledby="headingCommenews"
-                        data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image"
-                                        src="assets/images/Portfolio/commenews.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">The New York Post Metro Scrape</h3>
-                                    <h4>All the News That's Fit to Scrape.</h4>
-                                    <br>
-                                    <p class="portfolioDescription">This is a web app that lets users view and
-                                        leave
-                                        comments on the latest news. Created with Mongoose and Cheerio muscles
-                                        to
-                                        scrape news from New York Post Metro section.
-                                        The web application has been deployed on Heroku and use mongoDB to
-                                        storage
-                                        articles and comments.</p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://lit-thicket-53235.herokuapp.com"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/commenews.git"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- LIRI -->
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseLiri" aria-expanded="true" aria-controls="collapseLiri">
-                        <div class="card-header" id="headingLiri">
-                            <h5 class="mb-0">Liri </h5>
-                        </div>
-                    </button>
-                    <div id="collapseLiri" class="collapse" aria-labelledby="headingLiri" data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <video class="portfolio_image" src="assets/Videos/LiriCamiloAgudelo.mov"
-                                        controls></video>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">Liri</h3>
-                                    <h4>Hey Liri!!!</h4>
-                                    <br>
-                                    <p class="portfolioDescription">
-                                        LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation
-                                        and Recognition Interface, LIRI is a "Language" Interpretation and
-                                        Recognition Interface. LIRI is a command line node app that takes in
-                                        parameters and gives you back data.
-                                    </p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://github.com/Camiloagudelo4368/liri-node-app.git"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- BESCIPE -->
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseBescipe" aria-expanded="true" aria-controls="collapseBescipe">
-                        <div class="card-header" id="headingBescipe">
-                            <h5 class="mb-0">Bescipe</h5>
-                        </div>
-                    </button>
-                    <div id="collapseBescipe" class="collapse" aria-labelledby="headingBescipe"
-                        data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image" src="assets/images/Portfolio/Bescipe.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">Bescipe</h3>
-                                    <h4>Let us pick the best recipes for you.</h4>
-                                    <br>
-                                    <p class="portfolioDescription">This is a web application that allows users to
-                                        search for any recipe based on the ingredients they have in their fridge.
-                                        The application brings information from the yummly API and displays it in a
-                                        simple and easy to read form, which gives you the possibility to go to the
-                                        yummly website and see the complete recipe.</p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://camiloagudelo4368.github.io/Becipe"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/Becipe.git"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- TRIVIA GAME -->
-
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseTrivia" aria-expanded="true" aria-controls="collapseTrivia">
-                        <div class="card-header" id="headingTrivia">
-                            <h5 class="mb-0">Trivia Game</h5>
-                        </div>
-                    </button>
-                    <div id="collapseTrivia" class="collapse" aria-labelledby="headingTrivia" data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image"
-                                        src="assets/images/Portfolio/TriviaGame.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">Trivia Game</h3>
-                                    <h4>How is your knowledge about soccer.</h4>
-                                    <br>
-                                    <p class="portfolioDescription">Trivia game uses JavaScript for the logic and
-                                        jQuery to manipulate HTML. the layout was created with HTML and stylished
-                                        with CSS. </p>
-                                    <p class="portfolioDescription">Answer the questions within the time of 10
-                                        seconds, the app will show you a Gif based on your answer, by the end you
-                                        will have a number of correct and incorrect answers.</p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://camiloagudelo4368.github.io/TriviaGame"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/TriviaGame.git"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- GIFTASTIC -->
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseGiftastic" aria-expanded="true" aria-controls="collapseGiftastic">
-                        <div class="card-header" id="headingGiftastic">
-                            <h5 class="mb-0">Giftastic</h5>
-                        </div>
-                    </button>
-                    <div id="collapseGiftastic" class="collapse" aria-labelledby="headingGiftastic"
-                        data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image"
-                                        src="assets/images/Portfolio/GifTastic.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">GifTastic</h3>
-                                    <h4>Check some funy Gifs from GifTastic API.</h4>
-                                    <br>
-                                    <p class="portfolioDescription">Giftastic uses JavaScript for the logic and
-                                        jQuery to manipulate HTML. the layout was created with HTML and stylished
-                                        with CSS and Bootstrap.</p>
-                                    <p class="portfolioDescription">The app uses the GIPHY API to request Gifs based
-                                        on the user preference topic.</p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://camiloagudelo4368.github.io/GifTastic"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/Giftastic.git"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- THE WORD GUESS GAME -->
-
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseWordGuessGame" aria-expanded="true" aria-controls="collapseWordGuessGame"
-                        href="#collapseWordGuessGame">
-                        <div class="card-header" id="headingWordGuessGame">
-                            <h5 class="mb-0">The Word Guess Game </h5>
-                        </div>
-                    </button>
-                    <div id="collapseWordGuessGame" class="collapse" aria-labelledby="headingWordGuessGame"
-                        data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image"
-                                        src="assets/images/Portfolio/WordGuessGame.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">The Word Guess Game</h3>
-                                    <h4>Lets discover the world.</h4>
-                                    <br>
-                                    <p class="portfolioDescription">Giftastic uses JavaScript for the logic and
-                                        jQuery to manipulate HTML. the layout was created with HTML and stylished
-                                        with CSS and Bootstrap.</p>
-                                    <p class="portfolioDescription">The app uses the GIPHY API to request Gifs based
-                                        on the user preference topic.</p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://camiloagudelo4368.github.io/Word-Guess-Game"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/Word-Guess-Game.git"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- THE KING OF FIGHTERS BATTLE -->
-                    <button class="btn btn-link text-left text-primary" data-toggle="collapse"
-                        data-target="#collapseKOF" aria-expanded="true" aria-controls="collapseKOF">
-                        <div class="card-header" id="headingKOF">
-                            <h5 class="mb-0">The King of Fighters Battle</h5>
-                        </div>
-                    </button>
-
-                    <div id="collapseKOF" class="collapse" aria-labelledby="headingKOF" data-parent="#accordion">
-                        <div class="container-fluid">
-                            <div class="row portfolioRow align-items-top">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
-                                    <img class="card-img-top portfolio_image"
-                                        src="assets/images/Portfolio/unit-4-game.png">
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 align-middle">
-                                    <h3 class="portfolioHeader">The King of Fighters Battle</h3>
-                                    <h4>The most epic battle!!!.</h4>
-                                    <br>
-                                    <p class="portfolioDescription">Choose your player and bit the opositors.</p>
-                                    <p class="portfolioDescription">The app uses JavaScript for the logic and jQuery
-                                        to manipulate HTML. the layout was created with HTML and stylished
-                                        with CSS .</p>
-                                    <div>
-                                        <div class="text-left">
-                                            <a href="https://camiloagudelo4368.github.io/unit-4-game"
-                                                class="btn btn-outline-primary">Web Site</a>
-
-                                            <a href="https://github.com/Camiloagudelo4368/unit-4-game.git"
-                                                class="btn btn-outline-light">
-                                                <img src="assets/images/Icons/SVG-color/GithubButton.svg" alt=""
-                                                    srcset=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send</button>
                     </div>
                 </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-    </div>
-    <div id="contactModal" class="modal fade show" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content bg-light">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="gridModalLabel">Contact</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">×</span></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid bd-example-row">
-                        <div class="main_content">
-                            <div class="container" style="max-width:960px;">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label for="txt_name">Name</label>
-                                        <input id="txt_name" type="text" class="text_box">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label for="">Email</label>
-                                        <input id="txt_email" type="email" required class="text_box">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label for="txt_message">Message</label>
-                                        <textarea name="Message" id="txt_message" cols="30" rows="6"
-                                            class="text_box"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Send</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer_style align-middle">
-        <footer>Copyright 2019© Camilo Agudelo</footer>
+
     </div>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">

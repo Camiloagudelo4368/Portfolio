@@ -34,8 +34,9 @@ h1, h2, h3, ul {
 }
 
 .footer_style {
+    position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 0.1;
     left: 0;
     text-align: center;
     padding: 20px 0 20px 0;
@@ -44,6 +45,8 @@ h1, h2, h3, ul {
     font-size: 12px;
     opacity: .7;
     background-color: #DEE1E6;
+    margin: 0 !important;
+    /* margin-top: 20rem; */
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -154,26 +157,23 @@ h1, h2, h3, ul {
 .arrowImg {
     width: 8%;
     height: auto;
-    opacity: .4;
+    opacity: 1;
     /* margin:20px 0; */
 }
 
-.arrowCaption1 {
-    text-align: center;
-    /* padding: 0px; */
-    width: 100%;
-    position: absolute;
-    bottom: 1.8rem;
-    /* left: 0; */
+.arrowImg:hover {
+    cursor: pointer;
 }
 
-.arrowCaption2 {
+.arrowContainer {
+    min-width: 100% !important;
     text-align: center;
-    /* padding: 0px; */
-    width: 100%;
+    align-items: baseline;
     position: absolute;
-    bottom: .8rem;
-    /* left: 0; */
+    top: 40rem;
+    top: 80%;
+    z-index: 10;
+    opacity: .1;
 }
 
 .bg_image {
@@ -197,6 +197,15 @@ h1, h2, h3, ul {
     left: 0;
     padding: 0;
     margin: 0;
+}
+
+.startContentArrow {
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    z-index: 10;
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -243,16 +252,22 @@ h1, h2, h3, ul {
 
 /* Skills */
 
+.skillsHeader{
+    font-size: 2rem;
+    color: #262F72;
+    font-family: 'Fugaz One', cursive;
+}
+
 #skills {
     width: 75%;
     height: 100%;
-    padding: 10% 0 10% 0;
+    padding: 10% 0 0 0;
     margin: 0 auto;
 }
 
 .skills {
-    background-color: #F2F2F2;
-    padding: 10% 0 10% 0;
+    /* background-color: #F2F2F2; */
+    padding: 10% 0 0 0;
     margin-top: .7rem;
 }
 
@@ -276,28 +291,56 @@ h1, h2, h3, ul {
 /* Portfolio */
 
 #portfolio {
-    margin: 0px 0 0px 0;
-    padding: 120px 20px 100px 20px;
-    height: 100%;
+    margin: 0;
+    padding: 10% 0 0 0;
+
+    /* padding: 120px 20px 0px 20px; */
+    height: 100vh;
+}
+
+.card-header{
+    color: #757575 !important;
+    color: #BBDEFB !important;
+    color: #FFC107 !important;
+    background: #BBDEFB !important;
+    background: #757575 !important;
+    background-color: rgba(52, 44, 25, .7) !important;
+    background-color: rgba(121, 127, 131, .7) !important;
+    background-color: rgba(231, 233, 237, .7) !important;
+    /* background: #797F83 !important;     */
+    font-size: .8rem;
+    /* padding-top: .5rem; */
+    font-family: 'Russo One', sans-serif;
+    color: #612294 !important;
+    color: #842e69 !important;
+    color: #f011e5 !important;
+    color: #f05bed !important;
+    color: rgb(245, 46, 239) !important;
+    color: #6c5b5b !important;
+    
+}
+/* .btn-link */
+
+.btn-link, .btn-link:hover{
+    text-decoration: none !important;
 }
 
 .portfolioHeader {
     font-size: 32px;
     font-weight: 600;
-    margin-top: 10px
+    /* margin-top: 10px */
 }
 
 .portfolioDescription {
     margin-top: 10px;
-    font-size: 19px;
-    ;
+    font-size: 19px;  
     width: 100%;
     line-height: 1.5;
     color: #333333;
 }
 
 .portfolioRow {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding: 1rem;
 }
 
@@ -360,7 +403,11 @@ h1, h2, h3, ul {
     }
     .bg_image {
         background-size: 100vh 100vh;
-        /* height: 100vh; */
+    }
+    .arrowImg {
+        width: 10rem;
+        height: auto;
+        opacity: .8;
     }
 }
 
@@ -375,6 +422,11 @@ h1, h2, h3, ul {
         margin: 2rem 0 2rem 0;
         padding: 0;
     }
+    .arrowImg {
+        width: 10rem;
+        height: auto;
+        opacity: .8;
+    }
 }
 
 @media screen and (max-width: 1229px) {
@@ -387,5 +439,10 @@ h1, h2, h3, ul {
         width: 100%;
         margin: 2rem 0 2rem 0;
         padding: 0;
+    }
+    .arrowImg {
+        width: 10rem;
+        height: auto;
+        opacity: .8;
     }
 }
