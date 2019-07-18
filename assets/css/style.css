@@ -68,7 +68,7 @@ h1, h2, h3, ul {
     width: 1.7rem;
     height: .2rem;
     background-color: #FFFFFF;
-    margin: .3rem 0 .3rem 0 ;
+    margin: .3rem 0 .3rem 0;
 }
 
 .navCa .navbar-toggler {
@@ -234,9 +234,6 @@ h1, h2, h3, ul {
     color: #757575;
     font-family: 'Montserrat', sans-serif;
 }
-.sumaryText{
-    /* padding-left: 2.5rem; */
-}
 
 .rowBtn {
     margin: 3rem 0 0 0;
@@ -347,7 +344,7 @@ h1, h2, h3, ul {
 
 /* Media query */
 
-@media screen and (max-width: 640px) {    
+@media screen and (max-width: 640px) {
     #about {
         max-width: 100%;
         margin: 0 auto;
@@ -358,8 +355,12 @@ h1, h2, h3, ul {
         margin: 2rem 0 2rem 0;
         padding: 0;
     }
-    .sumaryText{
+    .sumaryText {
         padding-left: 1rem;
+    }
+    .bg_image {
+        background-size: 100vh 100vh;
+        /* height: 100vh; */
     }
 }
 
